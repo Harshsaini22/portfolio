@@ -138,7 +138,7 @@ export const Projects = () => {
                 This project is a built to demonstrate core CRUD operations. Users can create new fields with details like name, age and update or delete when no longer needed.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
+                {["React", "CSS"].map((tech, key) => (
                   <span
                     key={key}
                     className="
